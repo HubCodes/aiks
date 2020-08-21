@@ -12,7 +12,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94f5928b-e12a-4b29-a5ea-6271b82d922b" name="Default Changelist" comment="" />
+    <list default="true" id="94f5928b-e12a-4b29-a5ea-6271b82d922b" name="Default Changelist" comment="change font loader">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,14 +40,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Run aiks" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package aiks --bin aiks" />
@@ -55,6 +53,11 @@
       <envs />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
@@ -80,23 +83,31 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change font loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="change font loader" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="249" key="GridCell.Tab.0.bottom" timestamp="1598006363769">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="2414" height="380" key="GridCell.Tab.0.bottom" timestamp="1598019196820">
+      <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.bottom/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363769" />
-    <state width="1878" height="249" key="GridCell.Tab.0.center" timestamp="1598006363768">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="2414" height="380" key="GridCell.Tab.0.bottom/0.0.2560.1600@0.0.2560.1600" timestamp="1598019196820" />
+    <state width="2414" height="380" key="GridCell.Tab.0.center" timestamp="1598019196819">
+      <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.center/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363768" />
-    <state width="1878" height="249" key="GridCell.Tab.0.left" timestamp="1598006363768">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="2414" height="380" key="GridCell.Tab.0.center/0.0.2560.1600@0.0.2560.1600" timestamp="1598019196819" />
+    <state width="2414" height="380" key="GridCell.Tab.0.left" timestamp="1598019196818">
+      <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.left/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363768" />
-    <state width="1878" height="249" key="GridCell.Tab.0.right" timestamp="1598006363769">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="2414" height="380" key="GridCell.Tab.0.left/0.0.2560.1600@0.0.2560.1600" timestamp="1598019196818" />
+    <state width="2414" height="380" key="GridCell.Tab.0.right" timestamp="1598019196819">
+      <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.right/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363769" />
+    <state width="2414" height="380" key="GridCell.Tab.0.right/0.0.2560.1600@0.0.2560.1600" timestamp="1598019196819" />
     <state width="1878" height="249" key="GridCell.Tab.1.bottom" timestamp="1598006363771">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -113,10 +124,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.1.right/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363771" />
-    <state x="469" y="171" key="SettingsEditor" timestamp="1598004163894">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="602" y="140" key="SettingsEditor" timestamp="1598017093663">
+      <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state x="469" y="171" key="SettingsEditor/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598004163894" />
     <state x="469" y="190" key="SettingsEditor/-1792.23.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1598003906269" />
+    <state x="602" y="140" key="SettingsEditor/0.0.2560.1600@0.0.2560.1600" timestamp="1598017093663" />
   </component>
 </project>

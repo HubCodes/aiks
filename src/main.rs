@@ -3,7 +3,7 @@ use raqote::{DrawTarget, SolidSource, Source, DrawOptions, PathBuilder, Point, T
 use font_kit::family_name::FamilyName;
 use font_kit::properties::Properties;
 use font_kit::source::SystemSource;
-use font_kit::loaders::core_text::Font;
+use font_kit::loaders::freetype::Font;
 
 const WIDTH: usize = 400;
 const HEIGHT: usize = 400;
