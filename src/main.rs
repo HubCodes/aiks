@@ -23,7 +23,11 @@ fn main() {
         dt.clear(SolidSource::from_unpremultiplied_argb(0xff, 0xff, 0xff, 0xff));
         let mut pb = PathBuilder::new();
         if let Some(pos) = window.get_mouse_pos(MouseMode::Clamp) {
-            pb.rect(pos.0, pos.1, 100., 100.);
+            pb.move_to(pos.0, pos.1);
+            pb.line_to(pos.0 + 100., pos.1);
+            pb.line_to(pos.0 + 100., pos.1 + 100.);
+            pb.line_to(pos.0, pos.1 + 100.);
+            // pb.rect(pos.0, pos.1, 100., 100.);
             let path = pb.finish();
             dt.fill(&path, &Source::Solid(SolidSource::from(Color::new(255, 0, 0, 0))), &DrawOptions::new());
 

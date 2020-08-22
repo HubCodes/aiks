@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
@@ -55,11 +73,6 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cargo Command.Run aiks" />
@@ -81,33 +94,53 @@
       <workItem from="1598003784928" duration="122000" />
       <workItem from="1598003916864" duration="2291000" />
     </task>
+    <task id="LOCAL-00001" summary="change font loader">
+      <created>1598020359670</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598020359670</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change font loader" />
     <option name="LAST_COMMIT_MESSAGE" value="change font loader" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2414" height="380" key="GridCell.Tab.0.bottom" timestamp="1598019196820">
+    <state width="2414" height="380" key="GridCell.Tab.0.bottom" timestamp="1598021856230">
       <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.bottom/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363769" />
-    <state width="2414" height="380" key="GridCell.Tab.0.bottom/0.0.2560.1600@0.0.2560.1600" timestamp="1598019196820" />
-    <state width="2414" height="380" key="GridCell.Tab.0.center" timestamp="1598019196819">
+    <state width="2414" height="380" key="GridCell.Tab.0.bottom/0.0.2560.1600@0.0.2560.1600" timestamp="1598021856230" />
+    <state width="2414" height="380" key="GridCell.Tab.0.center" timestamp="1598021856229">
       <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.center/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363768" />
-    <state width="2414" height="380" key="GridCell.Tab.0.center/0.0.2560.1600@0.0.2560.1600" timestamp="1598019196819" />
-    <state width="2414" height="380" key="GridCell.Tab.0.left" timestamp="1598019196818">
+    <state width="2414" height="380" key="GridCell.Tab.0.center/0.0.2560.1600@0.0.2560.1600" timestamp="1598021856229" />
+    <state width="2414" height="380" key="GridCell.Tab.0.left" timestamp="1598021856228">
       <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.left/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363768" />
-    <state width="2414" height="380" key="GridCell.Tab.0.left/0.0.2560.1600@0.0.2560.1600" timestamp="1598019196818" />
-    <state width="2414" height="380" key="GridCell.Tab.0.right" timestamp="1598019196819">
+    <state width="2414" height="380" key="GridCell.Tab.0.left/0.0.2560.1600@0.0.2560.1600" timestamp="1598021856228" />
+    <state width="2414" height="380" key="GridCell.Tab.0.right" timestamp="1598021856229">
       <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.right/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363769" />
-    <state width="2414" height="380" key="GridCell.Tab.0.right/0.0.2560.1600@0.0.2560.1600" timestamp="1598019196819" />
+    <state width="2414" height="380" key="GridCell.Tab.0.right/0.0.2560.1600@0.0.2560.1600" timestamp="1598021856229" />
     <state width="1878" height="249" key="GridCell.Tab.1.bottom" timestamp="1598006363771">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
