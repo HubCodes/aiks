@@ -61,6 +61,11 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run aiks" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package aiks --bin aiks" />
@@ -101,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598020359670</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fill line">
+      <created>1598102903750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598102903750</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,29 +130,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change font loader" />
-    <option name="LAST_COMMIT_MESSAGE" value="change font loader" />
+    <MESSAGE value="fill line" />
+    <option name="LAST_COMMIT_MESSAGE" value="fill line" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2414" height="380" key="GridCell.Tab.0.bottom" timestamp="1598021856230">
+    <state width="2478" height="401" key="GridCell.Tab.0.bottom" timestamp="1598103351906">
       <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.bottom/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363769" />
-    <state width="2414" height="380" key="GridCell.Tab.0.bottom/0.0.2560.1600@0.0.2560.1600" timestamp="1598021856230" />
-    <state width="2414" height="380" key="GridCell.Tab.0.center" timestamp="1598021856229">
+    <state width="2478" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1600@0.0.2560.1600" timestamp="1598103351906" />
+    <state width="2478" height="401" key="GridCell.Tab.0.center" timestamp="1598103351904">
       <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.center/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363768" />
-    <state width="2414" height="380" key="GridCell.Tab.0.center/0.0.2560.1600@0.0.2560.1600" timestamp="1598021856229" />
-    <state width="2414" height="380" key="GridCell.Tab.0.left" timestamp="1598021856228">
+    <state width="2478" height="401" key="GridCell.Tab.0.center/0.0.2560.1600@0.0.2560.1600" timestamp="1598103351904" />
+    <state width="2478" height="401" key="GridCell.Tab.0.left" timestamp="1598103351903">
       <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.left/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363768" />
-    <state width="2414" height="380" key="GridCell.Tab.0.left/0.0.2560.1600@0.0.2560.1600" timestamp="1598021856228" />
-    <state width="2414" height="380" key="GridCell.Tab.0.right" timestamp="1598021856229">
+    <state width="2478" height="401" key="GridCell.Tab.0.left/0.0.2560.1600@0.0.2560.1600" timestamp="1598103351903" />
+    <state width="2478" height="401" key="GridCell.Tab.0.right" timestamp="1598103351905">
       <screen x="0" y="0" width="2560" height="1600" />
     </state>
     <state width="1878" height="249" key="GridCell.Tab.0.right/-1792.0.1792.1120/0.0.1920.1080@0.0.1920.1080" timestamp="1598006363769" />
-    <state width="2414" height="380" key="GridCell.Tab.0.right/0.0.2560.1600@0.0.2560.1600" timestamp="1598021856229" />
+    <state width="2478" height="401" key="GridCell.Tab.0.right/0.0.2560.1600@0.0.2560.1600" timestamp="1598103351905" />
     <state width="1878" height="249" key="GridCell.Tab.1.bottom" timestamp="1598006363771">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
