@@ -26,10 +26,11 @@ fn main() {
             pb.move_to(pos.0, pos.1);
             // pb.line_to(pos.0 + 100., pos.1);
             //pb.quad_to(pos.0 + 100., pos.1 - 50., pos.0 + 100., pos.1 + 100.);
-            pb.cubic_to(pos.0 + 50., pos.1 - 150., pos.0 + 100., pos.1 + 150., pos.0 + 150., pos.1);
+            //pb.cubic_to(pos.0 + 50., pos.1 - 150., pos.0 + 100., pos.1 + 150., pos.0 + 150., pos.1);
             // pb.line_to(pos.0 + 100., pos.1 + 100.);
             // pb.line_to(pos.0, pos.1 + 100.);
             // pb.rect(pos.0, pos.1, 100., 100.);
+            pb.arc(pos.0 + 100., pos.1 + 50., 10., 0., 0.5 * 3.1415926535);
             let path = pb.finish();
             let gradient = Source::new_radial_gradient(
                 Gradient {
