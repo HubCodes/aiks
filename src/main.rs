@@ -25,7 +25,8 @@ fn main() {
         if let Some(pos) = window.get_mouse_pos(MouseMode::Clamp) {
             pb.move_to(pos.0, pos.1);
             // pb.line_to(pos.0 + 100., pos.1);
-            pb.quad_to(pos.0 + 100., pos.1 - 50., pos.0 + 100., pos.1 + 100.);
+            //pb.quad_to(pos.0 + 100., pos.1 - 50., pos.0 + 100., pos.1 + 100.);
+            pb.cubic_to(pos.0 + 50., pos.1 - 150., pos.0 + 100., pos.1 + 150., pos.0 + 150., pos.1);
             // pb.line_to(pos.0 + 100., pos.1 + 100.);
             // pb.line_to(pos.0, pos.1 + 100.);
             // pb.rect(pos.0, pos.1, 100., 100.);
