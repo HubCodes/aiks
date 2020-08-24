@@ -5,8 +5,8 @@ use font_kit::properties::Properties;
 use font_kit::source::SystemSource;
 use font_kit::loaders::default::Font;
 
-const WIDTH: usize = 400;
-const HEIGHT: usize = 400;
+const WIDTH: usize = 700;
+const HEIGHT: usize = 700;
 
 fn main() {
     let mut window = Window::new("Raqute", WIDTH, HEIGHT, WindowOptions {
@@ -23,7 +23,7 @@ fn main() {
         dt.clear(SolidSource::from_unpremultiplied_argb(0xff, 0xff, 0xff, 0xff));
         let mut pb = PathBuilder::new();
         if let Some(pos) = window.get_mouse_pos(MouseMode::Clamp) {
-            pb.move_to(pos.0, pos.1);
+            //pb.move_to(pos.0, pos.1);
             pb.arc(pos.0 + 50., pos.1 + 50., 10., 0., 0.5 * std::f32::consts::PI);
             pb.line_to(pos.0, pos.1 + 60.);
             pb.arc(pos.0, pos.1 + 50., 10., 0.5 * std::f32::consts::PI, 0.5 * std::f32::consts::PI);
@@ -55,7 +55,8 @@ fn main() {
                 Spread::Pad,
             );
             let solid = Source::Solid(SolidSource::from(Color::new(255, 0, 0, 0)));
-            dt.fill(&path, &solid, &DrawOptions::new());
+            //dt.fill(&path, &solid, &DrawOptions::new());
+            dt.stroke(&path, &solid, &StrokeStyle::default(), &DrawOptions::new());
 
             let pos_string = format!("{:?}", pos);
             dt.draw_text(
