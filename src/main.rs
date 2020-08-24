@@ -24,16 +24,14 @@ fn main() {
         let mut pb = PathBuilder::new();
         if let Some(pos) = window.get_mouse_pos(MouseMode::Clamp) {
             pb.move_to(pos.0, pos.1);
-            // pb.line_to(pos.0 + 100., pos.1);
-            //pb.quad_to(pos.0 + 100., pos.1 - 50., pos.0 + 100., pos.1 + 100.);
-            //pb.cubic_to(pos.0 + 50., pos.1 - 150., pos.0 + 100., pos.1 + 150., pos.0 + 150., pos.1);
-            // pb.line_to(pos.0 + 100., pos.1 + 100.);
-            // pb.line_to(pos.0, pos.1 + 100.);
-            // pb.rect(pos.0, pos.1, 100., 100.);
             pb.arc(pos.0 + 50., pos.1 + 50., 10., 0., 0.5 * std::f32::consts::PI);
             pb.line_to(pos.0, pos.1 + 60.);
-            pb.arc(pos.0, pos.1 + 50., 10., 0., std::f32::consts::PI);
+            pb.arc(pos.0, pos.1 + 50., 10., 0.5 * std::f32::consts::PI, 0.5 * std::f32::consts::PI);
             pb.line_to(pos.0 - 10., pos.1);
+            pb.arc(pos.0, pos.1, 10., std::f32::consts::PI, 0.5 * std::f32::consts::PI);
+            pb.line_to(pos.0 + 50., pos.1 - 10.);
+            pb.arc(pos.0 + 50., pos.1, 10., 3. * std::f32::consts::PI / 2., 0.5 * std::f32::consts::PI);
+            pb.line_to(pos.0 + 60., pos.1 + 50.);
             let path = pb.finish();
             let gradient = Source::new_radial_gradient(
                 Gradient {
