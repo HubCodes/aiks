@@ -3,7 +3,7 @@ use raqote::{DrawTarget, SolidSource, Source, DrawOptions, PathBuilder, Point, T
 use font_kit::family_name::FamilyName;
 use font_kit::properties::Properties;
 use font_kit::source::SystemSource;
-use font_kit::loaders::freetype::Font;
+use font_kit::loaders::default::Font;
 
 const WIDTH: usize = 400;
 const HEIGHT: usize = 400;
@@ -30,7 +30,10 @@ fn main() {
             // pb.line_to(pos.0 + 100., pos.1 + 100.);
             // pb.line_to(pos.0, pos.1 + 100.);
             // pb.rect(pos.0, pos.1, 100., 100.);
-            pb.arc(pos.0 + 100., pos.1 + 50., 10., 0., 0.5 * 3.1415926535);
+            pb.arc(pos.0 + 50., pos.1 + 50., 10., 0., 0.5 * std::f32::consts::PI);
+            pb.line_to(pos.0, pos.1 + 60.);
+            pb.arc(pos.0, pos.1 + 50., 10., 0., std::f32::consts::PI);
+            pb.line_to(pos.0 - 10., pos.1);
             let path = pb.finish();
             let gradient = Source::new_radial_gradient(
                 Gradient {
@@ -53,8 +56,8 @@ fn main() {
                 128.,
                 Spread::Pad,
             );
-            // let solid = Source::Solid(SolidSource::from(Color::new(255, 0, 0, 0)));
-            dt.fill(&path, &gradient, &DrawOptions::new());
+            let solid = Source::Solid(SolidSource::from(Color::new(255, 0, 0, 0)));
+            dt.fill(&path, &solid, &DrawOptions::new());
 
             let pos_string = format!("{:?}", pos);
             dt.draw_text(
